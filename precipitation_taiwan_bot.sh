@@ -24,6 +24,6 @@ request_url="https://api.telegram.org/bot"$token"/sendPhoto"
 photo1_url=$photo1_url"?time="`date +%s`	# so that Telegram won't use a cached version
 photo2_url=$photo2_url"?time="`date +%s`
 
-curl --url $request_url --data-urlencode "chat_id=$chat_id" --data-urlencode "photo=$photo1_url" --data-urlencode "caption=$photo1_caption" --data-urlencode "time=`date +%s`"
+curl --url $request_url --data-urlencode "chat_id=$chat_id" --data-urlencode "photo=$photo1_url" --data-urlencode "caption=$photo1_caption"
 
-curl --url $request_url --data-urlencode "chat_id=$chat_id" --data-urlencode "photo=$photo2_url" --data-urlencode "caption=$photo2_caption" --data-urlencode "time=`date +%s`"
+curl --url $request_url --data-urlencode "chat_id=$chat_id" --data-urlencode "photo=$photo2_url" --data-urlencode "caption=$photo2_caption"
