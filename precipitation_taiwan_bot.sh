@@ -27,3 +27,5 @@ photo2_url=$photo2_url"?time="`date +%s`
 curl --url $request_url --data-urlencode "chat_id=$chat_id" --data-urlencode "photo=$photo1_url" --data-urlencode "caption=$photo1_caption"
 
 curl --url $request_url --data-urlencode "chat_id=$chat_id" --data-urlencode "photo=$photo2_url" --data-urlencode "caption=$photo2_caption"
+
+printf "\nDone\n"
