@@ -1,9 +1,11 @@
 #!/bin/bash
 
 photo1_url="http://www.cwb.gov.tw/V7/forecast/fcst/Data/QPF_ChFcstPrecip_6_06.jpg"
-photo1_caption=`date "+%Y-%m-%d, 08:00 ~ 14:00"`
+photo1_caption="08:00~14:00
+"`date "+%Y-%m-%d"`
 photo2_url="http://www.cwb.gov.tw/V7/forecast/fcst/Data/QPF_ChFcstPrecip_6_12.jpg"
-photo2_caption=`date "+%Y-%m-%d, 14:00 ~ 22:00"`
+photo2_caption="14:00~22:00
+"`date "+%Y-%m-%d"`
 
 if ! [[ -f config ]]
 then
