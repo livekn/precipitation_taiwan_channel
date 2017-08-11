@@ -5,3 +5,5 @@
 本程式並非由中央氣象局設立。
 
 本 telegram 頻道： https://t.me/precipitation_taiwan
+
+更多介紹： http://it.livekn.com/2017/08/precipitation-taiwan-telegram-channel-bot.html
