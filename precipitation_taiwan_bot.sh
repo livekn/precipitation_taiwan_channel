@@ -1,9 +1,9 @@
 #!/bin/bash
 
-photo1_url="http://www.cwb.gov.tw/V7/forecast/fcst/Data/QPF_ChFcstPrecip_6_06.jpg"
+photo1_url="https://www.cwb.gov.tw/Data/fcst_img/QPF_ChFcstPrecip_6_06.png"
 photo1_caption="08:00~14:00
 "`date "+%Y-%m-%d"`
-photo2_url="http://www.cwb.gov.tw/V7/forecast/fcst/Data/QPF_ChFcstPrecip_6_12.jpg"
+photo2_url="https://www.cwb.gov.tw/Data/fcst_img/QPF_ChFcstPrecip_6_12.png"
 photo2_caption="14:00~22:00
 "`date "+%Y-%m-%d"`
 
