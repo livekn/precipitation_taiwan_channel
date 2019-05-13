@@ -6,4 +6,4 @@
 
 本 telegram 頻道： https://t.me/precipitation_taiwan
 
-更多介紹： http://it.livekn.com/2017/08/precipitation-taiwan-telegram-channel-bot.html
+更多介紹： https://it.livekn.com/2017/08/precipitation-taiwan-telegram-channel-bot.html
